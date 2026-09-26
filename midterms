@@ -1,3 +1,8 @@
+print(" --- ")
+print("Midterm Practical Exam — Pet Adoption Records Manager")
+print("Student: Julianne Cyril S. Mariano")
+print(" --- ")
+
 pets = []  # starts empty — the user adds pets as the program runs
 
 def display_menu():
@@ -44,8 +49,8 @@ def find_pet(pet_list):
     # ask for a name, search the list, print result or "not found"
     search = input ("Enter Pet Name: ")
 
-    for pet in pet_list:
-        print(pet)
+    if search in pet_list:
+            print(f"Item Found: {search}")
 
     if not pet_list:
         print("No pets found.")
