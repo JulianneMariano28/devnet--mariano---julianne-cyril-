@@ -43,6 +43,14 @@ def count_available_adopted(pet_list):
 def find_pet(pet_list):
     # ask for a name, search the list, print result or "not found"
     search = input ("Enter Pet Name: ")
+
+    for pet in pet_list:
+        print(pet)
+
+    if not pet_list:
+        print("No pets found.")
+        return
+
     pass
 
 # BONUS (optional)
