@@ -2,23 +2,24 @@ pets = []  # starts empty — the user adds pets as the program runs
 
 def display_menu():
     while True:
-    print("=== Pet Adoption Records ===")
-    print("1. Add a pet")
-    print("2. View all pets")
-    print("3. Count available vs adopted")
-    print("4. Find a pet by name")
-    print("5. Exit")
+        print("=== Pet Adoption Records ===")
+        print("1. Add a pet")
+        print("2. View all pets")
+        print("3. Count available vs adopted")
+        print("4. Find a pet by name")
+        print("5. Exit")
 
-    choice = input ("Choose an option: ")
-    return
+        choice = input ("Choose an option: ")
+        return choice
     pass
 
 def add_pet(pet_list):
     pet=input("Enter Pet Name: ")
-    pet=input("Enter Pet Name: ")
+    pet_type=input("Pet Type: ")
+    pet_stat=input("Status (Available or Adapted): ")
 
-    pet.append(pets):
-    print("Pet Added!")
+    info = pet + "-" + pet_type + "-" + pet_stat 
+    pets.append(info)
     pass
 
 def view_pets(pet_list):
@@ -31,6 +32,7 @@ def count_available_adopted(pet_list):
 
 def find_pet(pet_list):
     # ask for a name, search the list, print result or "not found"
+    search = input (f"Enter Pet Name: )
     pass
 
 # BONUS (optional)
@@ -46,18 +48,17 @@ def main():
     running = True
     while running:
         choice = display_menu()
-    if choice == "1":
-        add_pet()
-    elif choice == "2":
-        view_pets()
-    elif choice == "3":
-        count_available_adopted()
-    elif choice == "4":
-        find_pet()
-    elif choice == "5":
-        print("--END--")
-    else:
-        print("Invalid Input!")
+        if choice == 1:
+            add_pet()
+        elif choice == 2:
+            view_pets()
+        elif choice == 3:
+            count_available_adopted()
+        elif choice == 4:
+            find_pet()
+        elif choice == 5:
+            print("--END--")
+        else:
+            print("Invalid Input!")
 
 main()
-add_pet()
