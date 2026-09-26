@@ -16,10 +16,12 @@ def display_menu():
 def add_pet(pet_list):
     pet=input("Enter Pet Name: ")
     pet_type=input("Pet Type: ")
-    pet_stat=input("Status (Available or Adapted): ")
+    pet_stat=input("Status (Available or Adopted: ")
 
-    info = pet + "-" + pet_type + "-" + pet_stat 
+    info = pet + " - " + pet_type + " - " + pet_stat
     pets.append(info)
+    print ("Pet Added!")
+    print (info)
     pass
 
 def view_pets(pet_list):
@@ -32,7 +34,7 @@ def count_available_adopted(pet_list):
 
 def find_pet(pet_list):
     # ask for a name, search the list, print result or "not found"
-    search = input (f"Enter Pet Name: )
+    search = input ("Enter Pet Name: ")
     pass
 
 # BONUS (optional)
@@ -48,15 +50,15 @@ def main():
     running = True
     while running:
         choice = display_menu()
-        if choice == 1:
-            add_pet()
-        elif choice == 2:
-            view_pets()
-        elif choice == 3:
+        if choice == "1":
+            add_pet(pets)
+        elif choice == "2":
+            view_pets(pets)
+        elif choice == "3":
             count_available_adopted()
-        elif choice == 4:
-            find_pet()
-        elif choice == 5:
+        elif choice == "4":
+            find_pet(pets)
+        elif choice == "5":
             print("--END--")
         else:
             print("Invalid Input!")
