@@ -7,7 +7,8 @@ def display_menu():
         print("2. View all pets")
         print("3. Count available vs adopted")
         print("4. Find a pet by name")
-        print("5. Exit")
+        print("5. Remove Pet")
+        print("6. Exit")
 
         choice = input ("Choose an option: ")
         return choice
@@ -16,7 +17,7 @@ def display_menu():
 def add_pet(pet_list):
     pet=input("Enter Pet Name: ")
     pet_type=input("Pet Type: ")
-    pet_stat=input("Status (Available or Adopted: ")
+    pet_stat=input("Status (Available or Adopted):")
 
     info = pet + " - " + pet_type + " - " + pet_stat
     pets.append(info)
@@ -26,6 +27,13 @@ def add_pet(pet_list):
 
 def view_pets(pet_list):
     # loop through and print every pet — handle empty list
+    for pet in pet_list:
+        print(pet)
+
+    if not pet_list:
+        print("No pets found.")
+        return
+
     pass
 
 def count_available_adopted(pet_list):
@@ -41,8 +49,8 @@ def find_pet(pet_list):
 def remove_pet(pet_list):
     rem_pet=input("Enter Pet Name to Remove: ")
 
-    for pet in pets:
-        pets.remove(rem_pet)
+    for pet in pet_list:
+        pets.remove(pet)
         print("Removed Successfully")
     pass
 
@@ -59,7 +67,10 @@ def main():
         elif choice == "4":
             find_pet(pets)
         elif choice == "5":
+            remove_pet(pets)
+        elif choice == "6":
             print("--END--")
+            break
         else:
             print("Invalid Input!")
 
