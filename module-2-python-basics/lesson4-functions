@@ -30,4 +30,7 @@ message = greet("Julianne")
 print(message)
 """
 ============================================
+A MISTAKE I MADE (or one I want to avoid)
+============================================
+One mistake I want to avoid is confusing a parameter with an argument. A parameter is the variable written when creating the function, while an argument is the actual value given when calling it. Understanding the difference helps me use functions correctly.
 
