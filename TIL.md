@@ -4,4 +4,4 @@ A running log of small things you learn along the way — not a full topic,
 just quick notes whenever something clicks or trips you up. Add to this
 anytime, not just during formal lessons.
 
--  Today I learned that the os module can be used to interact with the operating system, such as working with folders and files. I also learned that shutil can be used to copy, move, and manage files and folders. I realized that there are tasks that can be done through Python, and in a very convinient way when you know how it is done.
+-  Today I learned that variables are used to store different kinds of information in a program. I also learned that data types help identify what kind of information is being stored, such as numbers, text, and true or false values. I realized that choosing the correct data type is important because it affects how the information can be used.
