@@ -34,3 +34,7 @@ A MISTAKE I MADE (or one I want to avoid)
 ============================================
 One mistake I want to avoid is confusing a parameter with an argument. A parameter is the variable written when creating the function, while an argument is the actual value given when calling it. Understanding the difference helps me use functions correctly.
 
+============================================
+HOW THIS CONNECTS TO SOMETHING ELSE
+============================================
+Functions can be connected to school systems because different tasks can be separated into different functions. For example, one function can calculate grades, another can check attendance, and another can display student information. This makes the system easier to organize.
