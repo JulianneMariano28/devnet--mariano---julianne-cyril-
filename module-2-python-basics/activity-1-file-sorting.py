@@ -63,15 +63,15 @@ else:
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what tripped you up while building this? e.g. a path that didn't
-exist, a file that got overwritten, something that didn't work the
-way you expected at first]
-
+I was having trouble with the file paths and folder creation. Some commands and codes were
+also slightly unfamiliar to me, so I had difficulty understanding how to use them correctly. 
+In the end, I think I did not finish my code because I was still figuring out how everything 
+works.
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional: how is this similar to what real automation scripts do?
-think about your own gradebook/attendance workflow — could something
-like this save you time there?]
+This activity connects to file management because a lot of people usually have many files 
+that need to be organized, same goes to me. Instead of manually creating folders and 
+moving each file, a Python program could actually saves times because it can do it automatically. 
 """
