@@ -45,12 +45,18 @@ else:
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
-
+A mistake I want to avoid is forgetting the colon after if, elif, or else. 
+I admit that there were times when I forgot to put that tiny detail, so now 
+I will try to be more focused on the small details. I also need to be careful 
+with indentation because I noticed that Python is sensitive when it comes to proper 
+spacing. Indentation identifies which statements belong to each condition, so I 
+need to make sure that my code is properly indented.
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
+Control flow is also similar to how we make decisions in our daily lives. For example, 
+if I have class today, I’ll prepare my things and wake up early, but if there is no class, 
+I can use my time to rest or do other activities. It shows how a condition can determine 
+what actions should happen next, just like how we make decisions every day.
 """
