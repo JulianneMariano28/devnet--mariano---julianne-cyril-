@@ -51,5 +51,9 @@ I have to be careful in the way I use different types of data and to also know h
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
+Variables and data types are also useful and can be connected to real life because they can be 
+used to organize different kinds of information. For example, a school system can use variables 
+to store student's information, while a shopping system can use them to store product information 
+such as names, prices, and quantities. The way variables and data types help organize and manage 
+information is what connects programming to things we commonly use in real life.
 """
