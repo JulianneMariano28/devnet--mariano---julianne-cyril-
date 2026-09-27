@@ -30,7 +30,19 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+#for loop
+songs = ["Cardigan", "August", "Willow", "Delicate"] 
+for song in songs: 
+       print("Song:", song)
+
+print ()
+
+#while loop
+glasses = 0 
+while glasses < 8: 
+       glasses += 1 
+       print("Glasses of water:", glasses) 
+
 
 
 """
