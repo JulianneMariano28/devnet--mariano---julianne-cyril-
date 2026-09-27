@@ -1,0 +1,40 @@
+"""
+Module 2 — Lesson 4: Functions
+Student: Julianne Cyril S. Mariano
+Date: 09/27/2026
+
+============================================
+WHAT IS THIS TOPIC? (explain it like you're
+teaching a friend who's never coded before)
+============================================
+Functions are reusable blocks of code that perform a specific task. Instead of writing the same code repeatedly,  we can create a function and call it whenever we need it. 
+============================================
+KEY VOCABULARY
+============================================
+-function: A reusable block of code that performs a specific task.
+-def: A keyword used to defined or create a function.
+-parameter: A variable listed inside the parenthesis of a function that receives information.
+-argument: The actual value passed to a function when it is called.
+-return: Used to send a value back to the caller.
+-function call: Executes the function by using its name followed by parenthesis.
+============================================
+MY OWN EXAMPLE(S)
+============================================
+Write at least one working example below that you
+came up with yourself — not copied from class.
+"""
+def greet(name):
+       return "Hello, " + name + "!" 
+
+message = greet("Julianne") 
+print(message)
+"""
+============================================
+A MISTAKE I MADE (or one I want to avoid)
+============================================
+One mistake I want to avoid is confusing a parameter with an argument. A parameter is the variable written when creating the function, while an argument is the actual value given when calling it. Understanding the difference helps me use functions correctly.
+
+============================================
+HOW THIS CONNECTS TO SOMETHING ELSE
+============================================
+Functions can be connected to school systems because different tasks can be separated into different functions. For example, one function can calculate grades, another can check attendance, and another can display student information. This makes the system easier to organize.
