@@ -1,24 +1,24 @@
 """
 Module 2 — Lesson 1: Variables & Data Types
-Student: [your name]
-Date: [date]
+Student: Julianne Cyril S. Mariano
+Date: 09/27/2026
 
 ============================================
 WHAT IS THIS TOPIC? (explain it like you're
 teaching a friend who's never coded before)
 ============================================
-[write your own explanation here]
-
+Variables and data types are important parts of programming. A variable is like a container 
+that stores information, while a data type tells us what kind of information is stored in it.
 
 ============================================
 KEY VOCABULARY
 ============================================
-- variable:
-- data type:
-- int:
-- float:
-- string:
-- boolean:
+- variable: A name used to store a value.
+- data type: Tell us what kind of data a variable contains.
+- int: Short for integers. It is a data type used for whole numbers.
+- float: A data type used for numbers that contains decimal points.
+- string: A data type used to store text or a sequence of characters
+- boolean: A data type that can only have two possible values, which are True or False.
 (add more as needed)
 
 
@@ -29,19 +29,31 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+name = "Julianne" 
+age = 20 
+grade = 92.5
+is_student = True 
+
+print("Name:", name) 
+print("Age:", age) 
+print("Grade:", grade) 
+print("Is student:", is_student)
+
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
-
+One mistake I want to avoid is forgetting to put quotation marks around strings. 
+I have to be careful in the way I use different types of data and to also know how to use it.
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
+Variables and data types are also useful and can be connected to real life because they can be 
+used to organize different kinds of information. For example, a school system can use variables 
+to store student's information, while a shopping system can use them to store product information 
+such as names, prices, and quantities. The way variables and data types help organize and manage 
+information is what connects programming to things we commonly use in real life.
 """
