@@ -23,20 +23,26 @@ A git is a tool that help you manage you code. It helps you keep track of change
 
 ## Walking through what I did
 
-[Describe, step by step, a real branch → commit → push → PR you did. Include the actual commands you used.]
+First, I set up my Git username and email. Then, I connected my local repository to my GitHub repository. I also checked remote status. After that, I created a new branch named "julianne". After making some progress, I added my changes, checked their status, created a commit with a message, and push the changes to my branch. Lastly, I did pull request on GitHub.
 
 ```
-# paste your actual commands here
+git config --global user "CyrilMariano"
+git confi --global user.email "juliannecyril28mariano@gmail.com"
+git remote add origin "(repo url)"
+git remote -v
+git switch -c julianne
+git add .
+git status
+git commit -m "Initial Commit"
+git push -u origin mariano
 ```
 
 ---
 
 ## A mistake I made (or one I want to avoid)
 
-[What tripped you up? A confusing error message, committing to the wrong branch, a merge conflict — explain it so a classmate reading this avoids the same mistake.]
+A mistake that I want to avoid is overlooking which branch I am currently working on before making a commit. My commit changes could end up in a different places or may affect the main branch.
 
 ---
 
 ## How this connects to something else
-
-[Optional: how does version control relate to anything else you've learned or used before?]
