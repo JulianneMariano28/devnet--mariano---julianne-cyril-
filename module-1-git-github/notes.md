@@ -34,7 +34,7 @@ git switch -c julianne
 git add .
 git status
 git commit -m "Initial Commit"
-git push -u origin mariano
+git push -u origin julianne
 ```
 
 ---
@@ -46,3 +46,5 @@ A mistake that I want to avoid is overlooking which branch I am currently workin
 ---
 
 ## How this connects to something else
+
+Version control or working in GitHub and Git connects to group projects because different members work on the same project. We usually used GitHub to our projects or activies in our two subjects and I can say it is helpful in terms of collaboration and keeping things organized.
