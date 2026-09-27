@@ -29,16 +29,24 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+name = "Julianne" 
+age = 20 
+grade = 92.5
+is_student = True 
+
+print("Name:", name) 
+print("Age:", age) 
+print("Grade:", grade) 
+print("Is student:", is_student)
+
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
-
+One mistake I want to avoid is forgetting to put quotation marks around strings. 
+I have to be careful in the way I use different types of data and to also know how to use it.
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
