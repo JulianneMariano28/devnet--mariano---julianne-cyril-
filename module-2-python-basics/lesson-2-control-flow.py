@@ -31,7 +31,14 @@ Write at least one working example below that you
 came up with yourself — not copied from class.
 """
 
-# --- your code example goes here ---
+total = 1200 
+if total >= 2000: 
+    print("You get a 20% discount.") 
+elif total >= 1000: 
+    print("You get a 10% discount.") 
+else: 
+    print("No discount available.")
+
 
 
 """
