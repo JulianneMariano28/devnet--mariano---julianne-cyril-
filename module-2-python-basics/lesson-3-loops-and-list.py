@@ -43,18 +43,23 @@ while glasses < 8:
        glasses += 1 
        print("Glasses of water:", glasses) 
 
+print("Daily goal reached!")
 
 
 """
 ============================================
 A MISTAKE I MADE (or one I want to avoid)
 ============================================
-[what's something confusing or easy to get wrong
-about this topic?]
-
+Just like in control flows, loops in Python are sensitive in term of indentation. 
+Therefore, I should know how to properly implement correct indentation so Python knows 
+which statements are part of a loop
 
 ============================================
 HOW THIS CONNECTS TO SOMETHING ELSE
 ============================================
-[optional]
+Since we often deal with multiple things at one, loops and lists can be connected to our 
+daily routine. For example, we can have a list of tasks, things to buy, or activities we 
+need to finish. A loop is similar to going through each item one by one until everything 
+is completed.
+
 """
