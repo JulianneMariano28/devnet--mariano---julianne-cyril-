@@ -1,0 +1,90 @@
+print(" --- ")
+print("Midterm Practical Exam — Pet Adoption Records Manager")
+print("Student: Julianne Cyril S. Mariano")
+print(" --- ")
+
+pets = []  # starts empty — the user adds pets as the program runs
+
+def display_menu():
+    while True:
+        print("=== Pet Adoption Records ===")
+        print("1. Add a pet")
+        print("2. View all pets")
+        print("3. Count available vs adopted")
+        print("4. Find a pet by name")
+        print("5. Remove Pet")
+        print("6. Exit")
+
+        choice = input ("Choose an option: ")
+        return choice
+    pass
+
+def add_pet(pet_list):
+    pet=input("Enter Pet Name: ")
+    pet_type=input("Pet Type: ")
+    pet_stat=input("Status (Available or Adopted):")
+
+    info = pet + " - " + pet_type + " - " + pet_stat
+    pets.append(info)
+    print ("Pet Added!")
+    print (info)
+    pass
+
+def view_pets(pet_list):
+    # loop through and print every pet — handle empty list
+    for pet in pet_list:
+        print(pet)
+
+    if not pet_list:
+        print("No pets found.")
+        return
+
+    pass
+
+def count_available_adopted(pet_list):
+    # loop through, count Available vs Adopted, return both
+    pass
+
+def find_pet(pet_list):
+    # ask for a name, search the list, print result or "not found"
+    search = input ("Enter Pet Name: ")
+
+    if search in pet_list:
+            print(f"Item Found: {search}")
+
+    if not pet_list:
+        print("No pets found.")
+        return
+
+    pass
+
+# BONUS (optional)
+def remove_pet(pet_list):
+    rem_pet=input("Enter Pet Name to Remove: ")
+
+    for pet in pet_list:
+        pets.remove(pet)
+        print("Removed Successfully")
+    pass
+
+def main():
+    running = True
+    while running:
+        choice = display_menu()
+        if choice == "1":
+            add_pet(pets)
+        elif choice == "2":
+            view_pets(pets)
+        elif choice == "3":
+            count_available_adopted()
+        elif choice == "4":
+            find_pet(pets)
+        elif choice == "5":
+            remove_pet(pets)
+        elif choice == "6":
+            print("--END--")
+            break
+        else:
+            print("Invalid Input!")
+
+main()
